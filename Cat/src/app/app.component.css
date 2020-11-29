@@ -1,0 +1,29 @@
+h1
+{
+  font-size: 40px;
+  background-color: #007bff;
+  color: white;
+  margin: 0;
+  padding: 16px;
+  text-align:center;
+}
+
+footer
+{
+  background-color: #f8f9fa;
+  height: 60px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+body
+{
+  margin-right: 100px;
+  margin-left: 100px;
+}
