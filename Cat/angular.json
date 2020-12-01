@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Cat"
+  "defaultProject": "Cat",
+  "cli": {
+    "analytics": "01227fb6-c854-43f6-9386-8b130a16e2ad"
+  }
 }
