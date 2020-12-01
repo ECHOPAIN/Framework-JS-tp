@@ -1,7 +1,13 @@
 <h1>Cat card list</h1>
 <hr>
-<app-cat-card [id] = 1 
-              [title] = "'Random cat card'" 
-              [imageUrl] = "'https://cataas.com/cat?width=250&height=200'" 
-              [description] = "'That card shows a random cat image.'">
+<a href="create-cat.component.html" class="btn btn-lg btn-danger circle add"><i class="fas fa-plus"></i>Add</a>
+
+<app-cat-card *ngFor="let cat of initialCards"
+              [id] = cat.id
+              [title] = cat.title
+              [imageUrl] = cat.imageUrl
+              [description] = cat.description>
 </app-cat-card>
+
+
+
