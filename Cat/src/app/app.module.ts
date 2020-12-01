@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CardlistComponent } from './cardlist/cardlist.component';
 import { CatCardComponent } from './cat-card/cat-card.component';
 import { HomeComponent } from './home/home.component';
+import { CatService } from './cat.service';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [CatService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
