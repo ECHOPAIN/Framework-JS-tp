@@ -1,6 +1,6 @@
 <h1>Cat card list</h1>
 <hr>
-<a href="create-cat.component.html" class="btn btn-lg btn-danger circle add"><i class="fas fa-plus"></i>Add</a>
+<a routerLink="/createCat">Add</a>
 
 <app-cat-card *ngFor="let cat of initialCards"
               [id] = cat.id
@@ -8,6 +8,3 @@
               [imageUrl] = cat.imageUrl
               [description] = cat.description>
 </app-cat-card>
-
-
-
